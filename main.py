@@ -7,6 +7,7 @@ import os
 
 ''''
 Todo:
+4 Add check for invalid URL
 5 Turn in into desktop applications
 6 Convert the code to .exe
 7 Step by step guide (Readme - github)
