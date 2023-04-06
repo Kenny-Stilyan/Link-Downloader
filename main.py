@@ -7,10 +7,6 @@ import os
 
 ''''
 Todo:
-1 Add spotify download capability
-2 Add sondcloud download capability
-3 Add to chose betwen yt, spf, sc or invalid
-4 Add check for invalid URL
 5 Turn in into desktop applications
 6 Convert the code to .exe
 7 Step by step guide (Readme - github)
@@ -30,5 +26,4 @@ def animation():
 
 if __name__ == "__main__":
     yt_main()
-
 
