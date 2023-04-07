@@ -59,15 +59,27 @@ def yt_main():
     
     if choice == 1:
         url = input("Enter the video URL: ")
-        download_video(url)
+        try:
+            download_video(url)
+        except Exception as e:
+            print("Invalid URL. Please enter a valid video URL.")
     elif choice == 2:
         url = input("Enter the videos playlist URL: ")
-        download_video_playlist(url)
+        try:
+            download_video_playlist(url)
+        except Exception as e:
+            print("Invalid URL. Please enter a valid playlist URL.")
     elif choice == 3:
         url = input("Enter the music URL: ")
-        download_music(url)
+        try:
+            download_music(url)
+        except Exception as e:
+            print("Invalid URL. Please enter a valid video URL.")
     elif choice == 4:
         url = input("Enter the musics playlist URL: ")
-        download_music_playlist(url)
+        try:
+            download_music_playlist(url)
+        except Exception as e:
+            print("Invalid URL. Please enter a valid playlist URL.")
     else:
         print("Invalid choice")
